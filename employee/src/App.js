@@ -1,18 +1,17 @@
-import React, {Component} from 'react';
-import "bootstrap/dist/css/bootstrap.min.css";
+import React from "react";
 import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
-import SearchContainer from "./components/SearchContainer";
-import './App.css';
+import Main from "./components/Main";
+
 
 function App() {
   return (
     <div>
       <Jumbotron />
-        <Navbar />
-        <SearchContainer />
+      <Navbar />
+      <Main />
     </div>
   );
-}
+};
 
 export default App;
