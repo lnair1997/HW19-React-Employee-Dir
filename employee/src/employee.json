@@ -1,72 +1,72 @@
 [
     {
         "id": 1,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Roy Bannon",
+        "occupation": "CEO of Puppies R Us",
+        "phone": "648-521-5946",
+        "email": "roy@puppiesrus.com"
     },
     {
         "id": 2,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Lathisha Nair",
+        "occupation": "Professional Petter",
+        "phone": "560-481-1235",
+        "email": "lathisha@puppiesrus.com"
     },
     {
         "id": 3,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Nina Rocket",
+        "occupation": "Pet Groomer",
+        "phone": "845-164-4879",
+        "email": "nina@puppiesrus.com"
     },
     {
         "id": 4,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Sammie Tunny",
+        "occupation": "Pet Sitter",
+        "phone": "265-498-5564",
+        "email": "sammie@puppiesrus.com"
     },
     {
         "id": 5,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Terrion Reynolds",
+        "occupation": "Pet Nurse",
+        "phone": "002-486-3161",
+        "email": "terrion@puppiesrus.com"
     },
     {
         "id": 6,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Jess Mattern",
+        "occupation": "Pet Groomer",
+        "phone": "495-278-4978",
+        "email": "jess@puppiesrus.com"
     },
     {
         "id": 7,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Emily Gallina",
+        "occupation": "Pet Maintenance",
+        "phone": "774-845-5599",
+        "email": "emily@puppiesrus.com"
     },
     {
         "id": 8,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Amber Reid",
+        "occupation": "Pet Maintenance",
+        "phone": "112-145-6485",
+        "email": "amber@puppiesrus.com"
     },
     {
         "id": 9,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Gedalya Krycer",
+        "occupation": "Pet Sitter",
+        "phone": "889-546-2151",
+        "email": "gedalya@puppiesrus.com"
     },
     {
         "id": 10,
-        "name": "SpongeBob",
-        "occupation": "Fry Cook",
-        "phone": "6485215946",
-        "email": "spongebob@pineapple.com"
+        "name": "Scott Harris",
+        "occupation": "Pet Nurse",
+        "phone": "465-155-3211",
+        "email": "scott@puppiesrus.com"
     }
 ]

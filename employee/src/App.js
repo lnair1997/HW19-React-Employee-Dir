@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
-import Main from "./components/Main";
+import EmployeeTable from "./components/EmployeeTable";
 import employees from "./employee.json";
 
 class App extends Component {
@@ -15,8 +15,19 @@ class App extends Component {
       <div>
         <Jumbotron />
         <Navbar />
-        {this.state.employees.map(employee => (
-            <Main
+
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Occupation</th>
+              <th>Phone</th>
+              <th>Email</th>
+            </tr>
+          </thead>
+
+          {this.state.employees.map(employee => (
+            <EmployeeTable
               id={employee.id}
               name={employee.name}
               occupation={employee.occupation}
@@ -24,6 +35,8 @@ class App extends Component {
               email={employee.email}
             />
           ))}
+
+        </table>
       </div>
     );
   }
