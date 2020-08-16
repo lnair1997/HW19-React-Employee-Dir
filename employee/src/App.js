@@ -8,16 +8,17 @@ import "./App.css";
 class App extends Component {
 
   state = {
-    employees
+    employees,
+    results: []
   };
 
   sortByName = () => {
-    const employees = this.state.employees.sort((a, b) =>
+    const newEmployees = this.state.employees.sort((a, b) =>
       a.name > b.name ? 1 : -1
     );
 
-    this.setState({ results: employees });
-    console.log(employees);
+    this.setState({ results: newEmployees });
+    console.log(newEmployees);
   };
 
   findName = event => {
