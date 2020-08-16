@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 
 function Navbar(props) {
     return (
-        <div class="row">
+        <div className="row">
             <input onChange={props.findName}
-            value={props.inputValue}
-            style = {{width: "25%"}} type="text" className="form-control mt-5" placeholder="Search for Name" />
+                value={props.inputValue}
+                type="text" className="form-control" placeholder="Search for Name" id="search" />
         </div>
     )
 };

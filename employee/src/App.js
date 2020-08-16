@@ -3,6 +3,7 @@ import Jumbotron from "./components/Jumbotron";
 import Navbar from "./components/Navbar";
 import EmployeeTable from "./components/EmployeeTable";
 import employees from "./employee.json";
+import "./App.css";
 
 class App extends Component {
 
@@ -31,29 +32,33 @@ class App extends Component {
     return (
       <div>
         <Jumbotron />
-        <Navbar findName={this.findName} />
+        <div className="container-md">
+          <Navbar findName={this.findName} />
 
-        <table className="table">
-          <thead>
-            <tr>
-              <th onClick={() => this.sortByName(employees.name)}>Name</th>
-              <th>Occupation</th>
-              <th>Phone</th>
-              <th>Email</th>
-            </tr>
-          </thead>
+          <table className="table table-striped w-auto">
+            <thead>
+              <tr>
+                <th onClick={() => this.sortByName(employees.name)}>Name</th>
+                <th>Occupation</th>
+                <th>Phone</th>
+                <th>Email</th>
+              </tr>
+            </thead>
 
-          {this.state.employees.map(employee => (
-            <EmployeeTable
-              id={employee.id}
-              name={employee.name}
-              occupation={employee.occupation}
-              phone={employee.phone}
-              email={employee.email}
-            />
-          ))}
+            <tbody>
+              {this.state.employees.map(employee => (
+                <EmployeeTable
+                  id={employee.id}
+                  name={employee.name}
+                  occupation={employee.occupation}
+                  phone={employee.phone}
+                  email={employee.email}
+                />
+              ))}
+            </tbody>
+          </table>
 
-        </table>
+        </div>
       </div>
     );
   }
