@@ -16,7 +16,7 @@
     {
         "id": 3,
         "name": "Nina Rocket",
-        "occupation": "Pet Groomer",
+        "occupation": "Groomer",
         "phone": "845-164-4879",
         "email": "nina@puppiesrus.com"
     },
@@ -37,7 +37,7 @@
     {
         "id": 6,
         "name": "Jess Mattern",
-        "occupation": "Pet Groomer",
+        "occupation": "Groomer",
         "phone": "495-278-4978",
         "email": "jess@puppiesrus.com"
     },

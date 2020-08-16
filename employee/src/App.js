@@ -10,16 +10,33 @@ class App extends Component {
     employees
   };
 
+  sortByName = () => {
+    const employees = this.state.employees.sort((a, b) =>
+      a.name > b.name ? 1 : -1
+    );
+
+    this.setState({ results: employees });
+    console.log(employees);
+  };
+
+  findName = event => {
+    const employees = this.state.employees.filter(employees => {
+      return employees.name.toLowerCase().includes(event.target.value.toLowerCase())
+    });
+
+    this.setState({ employees });
+  };
+
   render() {
     return (
       <div>
         <Jumbotron />
-        <Navbar />
+        <Navbar findName={this.findName} />
 
         <table className="table">
           <thead>
             <tr>
-              <th>Name</th>
+              <th onClick={() => this.sortByName(employees.name)}>Name</th>
               <th>Occupation</th>
               <th>Phone</th>
               <th>Email</th>
