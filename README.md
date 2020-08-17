@@ -19,9 +19,7 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 1. [Technology Used](#technology-used)
 2. [Installations](#installations)
 3. [Links](#links)
-4. [Code Components](#code-components)
-5. [Future Development](#future-development)
-6. [Contact Info](#contact-info)
+4. [Contact Info](#contact-info)
  
 ## Technologies Used:
  
